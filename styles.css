@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 250x;
+    height: 100%;
+    align-items: center;
+    border-right: 1px solid black;
+    justify-content: center;
+    background-color: silver; 
+}
+
+nav a {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+main {
+    margin-left: 250px;
+    padding: 50px;
+}
+
+h2.bottom-h2 {
+    margin-left: 250px;
+
+table {
+    border: solid;
+}
+
+.nav .logo {
+    width: 250px;
+    display: block;
+}
