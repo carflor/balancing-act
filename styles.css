@@ -1,48 +1,94 @@
 body {
     margin: 0;
+    width: 90%;
+    background: #F5F5F5
 }
 
 * {
-    font-family: sans-serif;
-    box-sizing: border-box;
+    font-family: "Biryani", "Times New Roman", sans-serif;
+}
+
+main {
+    position: inline-block;
+    float: right;
+    width: 90%;
+    height: 100%;
+    right: 50px;
+    margin: 0, 10px, 0, 10px;
 }
 
 nav {
     position: fixed;
-    display: flex;
-    flex-direction: column;
-    top: 0;
-    left: 0;
-    width: 250x;
+    display: inline-block;
+    padding: 5px;
+    margin: 0, 10;
+    width: 100px;
     height: 100%;
     align-items: center;
-    border-right: 1px solid black;
-    justify-content: center;
-    background-color: silver; 
+    border-right: 1px solid white;
+    background-color: white; 
 }
 
-nav a {
+img {
+    align-items: center;
+    width: 80px;
+}
+
+.income, .expenses, .credit {
+    background: white;
+    float: left;
+}
+
+ul li {
     display: inline-block;
-    padding: 0px 5px;
+    height: 20%;
 }
 
-main {
-    margin-left: 250px;
-    padding: 50px;
+.left-tab {
+    float: right;
+}
+
+.navlogo {
+    position: inline;
 }
 
 h2.bottom-h2 {
-    margin-left: 250px;
-
-table {
-    border: solid;
+    margin-left: 150px;
 }
 
-.nav .logo {
-    width: 250px;
-    display: block;
+table {
+    border: 10px solid;
+    float: right;
+}
+
+section {
+    background: white;
+    border: solid green;
+    display: inline;
+}
+
+thead {
+    font-style: bold;
 }
 
 aside {
-    
+    background: white;
+    display: inline;
+    border: solid black;
+}
+
+.banking-table {
+    border: dotted black";
+}
+
+button:hover {
+background-color: #1CA3BA;
+  padding: 5px 25px;
+  border: #1CA3BA;
+  border-radius: 10px;
+  display: inline-block;
+  line-height: 25px;
+  text-align: center;
+  margin: 10px;
+  width: 200px;
 }
