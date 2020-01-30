@@ -1,106 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  <title>
-    Balancing Act
-  </title>
-  <link href="styles.css" type="text/css" rel="stylesheet" />
-  </head>
-  <body>
-  <nav class="navbar">
-    <div class="nav logo" >
-    <a href="https://carflor.github.io/balancing-act/assets/images/elephant.svg">
-    <img src="elephant.svg" alt="elephant-logo" title="Main logo." />
-    </a>
-    </div>
-    <div class="navoption">
-    <img src="dashboard.svg" alt="dashboard-icon" title="Dashboard icon." />
-  </div>
-  <div class="navoption">
-    <img src="transactions.svg" alt="transactions-icon" title="Transactions Icon." />
-  </div>
-  <div class="navoption">
-    <img src="profile.svg" alt="profile-icon" title="Profile Icon." />
-  </div>
-  </nav>
-  <main>
-    <h1>Balancing Act</h1>
+<head>
+<title>Balancing Act</title>
+<link href="https://fonts.googleapis.com/css?family=Biryani&display=swap" rel="stylesheet">
+<link href="styles.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<!-- NAV SECTION BELOW -->
+<nav>
+<ul>
+  <li class="navlogo" >
+  <img src="assets/images/elephant.svg" alt="elephant-logo" title="Main logo." />
+  </li>
+  <li>
+  <img src="assets/images/dashboard.svg" alt="dashboard-icon" title="Dashboard icon." />
+  </li>
+  <li>
+  <img src="assets/images/transactions.svg" alt="transactions-icon" title="Transactions Icon." />
+  </li>
+  <li>
+  <img src="assets/images/profile.svg" alt="profile-icon" title="Profile Icon." />
+  </li>
+</ul>
+</nav>
+
+  <!-- NAV SECTION ABOVE -->
+<main>
+  <h1>Balancing Act</h1>
   <div class="welcome-sign">
-   <textarea> Welcome, Oscar!</textarea>
-
-  <!--DOUBLE CHECK TEXTAREA NECESSITY--> 
-
-  </div> 
-    <section>
-      <p>Income</p>
-      <article>$2,119.12</article>
-    </section>
-    <section>
-      <p>Expenses</p>
-      <article>$420.54</article>
-    </section>
-    <section>
-      <p>Credit Score</p>
-      <article>$673</article>
-    </section>
+   <button class="welcome-button"> 
+     Welcome, Oscar!
+    </button>
+  </div>
+  <section class="income expenses credit">
+      <section>Income</section>
+      <section>$2,119.12</section>
+  </section>
+  <section class="income expenses credit">
+    <section>Expenses</section>
+    <section>$420.54</section>
+  </section>
+  <section class="income expenses credit">
+    <section>Credit Score</section>
+    <section>$673</section>
+  </section>
   <h2>Accounts</h2>
   <div> 
-  <section class="right-tab">
+  <section class="left-tab">
     <button>Manage Accounts</button>
   </section>
-  <section>
-    <article> 
-      <a href=""
-      <img src="checkings.svg" alt="checkings-icon" title="Checkings Icon." />
-      <p>Wells Fargo</p>
-      <p>Checking</p> 
-    </article>
-    <article> 
-      <img src="savings.svg" alt="savings-icon" title="Savings Icon." /> 
+  <section> 
+  <img src="assets/images/checking.svg" alt="checkings-icon" title="Checkings Icon." />
+  </section>
+    <p>Wells Fargo</p>
+    <p>Checking</p> 
+  <section>   
+  <img src="assets/images/savings.svg" alt="savings-icon" title="Savings Icon." /> 
+  </section>
     <p>Wells Fargo</p>
     <p>Savings</p>
-    </article>
-    <article> 
-      <img src="credit-card.svg" alt="creditcard-icon" title=" Credit Card Icon." />
+  <section> 
+  <img src="assets/images/credit-card.svg" alt="creditcard-icon" title=" Credit Card Icon." />
+  </section>
     <p>Amazon Credit</p>
     <p>Credit Card</p>    
-    </article>
-    <article> 
-      <img src="credit-card.svg" alt="creditcard-icon" title=" Credit Card Icon." />
+  <section> 
+  <img src="assets/images/credit-card.svg" alt="creditcard-icon" title=" Credit Card Icon." />
+  </section>
     <p>Southwest Credit</p>
     <p>Credit Card</p>
-    </article>
   </section>
-</div>
+  </div>
+
+<!-- THIS IS MY TABLE --> 
 <aside>
-  <h2 class="bottom-h2">Recent Transactions</h2>
-  <section class="right-tab">
-    <button>New Transaction</button>
-  </section>
+<section class="banking-table">
+<h2 class="bottom-h2">Recent Transactions</h2>
+<section class="right-tab">
+  <button>New Transaction</button>
+</section>
   <table>
-  <tr class="table-head"> 
-    <th>Date</th>
-    <th>Payee</th>
-    <th>Inflow</th>
-    <th>Outflow</th>
+  <th>Date</th>
+  <th>Payee</th>
+  <th>Inflow</th>
+  <th>Outflow</th>
+  <tr class="table-item">
+  <td>Oct 25, 2019</td>
+  <td>Target</td>
+  <td>-</td>
+  <td>$ 82.35</td>
   </tr>
   <tr class="table-item">
-    <td>Oct 25, 2019</td>
-    <td>Target</td>
-    <td>-</td>
-    <td>$ 82.35</td>
+  <td>Oct 24, 2019</td>
+  <td>Express</td>
+  <td>-</td>
+  <td>$212.24</td>
   </tr>
   <tr class="table-item">
-    <td>Oct 24, 2019</td>
-    <td>Express</td>
-    <td>-</td>
-    <td>$212.24</td>
-  </tr>
-  <tr class="table-item">
-    <td>Oct 22, 2019</td>
-    <td>Paycheck</td>
-    <td>$ 1319.12</td>
-    <td>-</td>
+  <td>Oct 22, 2019</td>
+  <td>Paycheck</td>
+  <td>$ 1319.12</td>
+  <td>-</td>
   </tr>
   <tr class="table-item">
     <td>Oct 21, 2019</td>
@@ -138,8 +138,12 @@
     <td>-</td>
     <td>$6.00</td>
   </tr>
-  </table>
-  </aside>
-</body>
+</table>
+</section>
+</aside>
+  
+  <!-- THIS IS MY TABLE --> 
+  
 </main>
+</body>
 </html>
