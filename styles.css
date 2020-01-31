@@ -1,8 +1,8 @@
 body {
     margin: 0;
-    width: 90%;
+    width: 100%;
     background: #f5f5f5;
-    display: inline-block;
+    display: block;
 }
 
 * {
@@ -10,39 +10,112 @@ body {
 }
 
 main {
-    position: block;
-    float: right;
-    width: 90%;
-    height: 100%;
-    right: 50px;
-    margin: 10px, 10px;
+    position: inline-block;
+    width: calc(100% - 120px);
+    height: auto;
+    margin: 0px 0px 0px 140px;
 }
 
 nav {
     position: fixed;
-    display: block;
+    top: 0;
+    left: 0;
+    display: inline-block;
     padding: 0px;
     margin: 0, 0;
     width: 120px;
     height: 100%;
-    align-items: left;
-    border-right: 1px solid black;
+    border-right: 0px solid white;
     background-color: white; 
 }
 
-li {
-    display: block;
+ul {
+    list-style-type: none;
+    max-width: 60px;
+    display: inline-block;
+    margin: 90px 0px;
+    padding: 5px 5px;
+    height: 60%;
 }
 
-img {
-    width: 90px;
+#logo {
+    top: 0;
+    left: 0;
+    width: 120px;
+    padding: 5px 5px;
+}
+
+li img {
+    width: 80px;
+    margin: 5px 5px;
+    height: 100px;
+}
+
+.nav-option {
+    border-left: 6px solid #8ED1DC;
+}
+
+.welcome-button {
+    position: absolute;
+    width: 40%;
+    height: 75px;
+    padding: 10px 30px;
+    text-align: left;
+    font-size: 20px;
+    background-image: linear-gradient(to right,#8ED1DC , #E3F4F6);
+    border-radius: 4px 4px;
+    z-index: 9;
+}
+
+.close-button {
+    position: relative;
+    background: transparent;
+    border: 1px grey;
+    left: 550px;
+    z-index: 10;
 }
 
 
 
 
 
-.income, .expenses, .credit {
+
+
+
+
+
+
+
+/* li {
+    display: block; 
+} */
+
+/* .nav-dashboard {
+    border: 2px solid brown;
+    position: relative;
+    image: small;
+    height: 260px;
+}
+
+.nav-logo {
+    width: 40px;
+}
+
+.nav-transactions {
+    image: medium;
+    height: 280px;
+}
+
+.nav-icon {
+    image: medium;
+    height: 300px;
+} */
+
+/* section {
+    background: white;
+} */
+
+/* .income, .expenses, .credit {
     background: white;
     float: left;
 }
@@ -55,26 +128,27 @@ section {
     width: 50%;
 }
 
-.navlogo {
+.nav-logo {
     position: inline;
 }
 
-h2.bottom-h2 {
-    margin-left: 150px;
-}
+.nav-icon {
+    float: center;
+} */
 
-section {
+
+
+/* section {
     background: white;
     border: dotted green;
     display: inline;
-}
+} */
 
 
 
 
-aside {
+/* aside {
     background: white;
-    display: inline;
     border: solid black;
 }
 
@@ -85,32 +159,33 @@ th {
 }
 
 .banking-table {
-    display: inline-block;
-    width: 100px 100px;
-    border: 5px solid #ff0000;
+    width: 45%;
+    border-collapse: collapse;
+    border: 3px solid #ff0000;
     border-top: 5px solid #ff0000;
     border-bottom: 5px solid #ff0000;
-    padding: 5px 15px;
+    padding: 15px 15px;
     float: right;
 }
 
 td {
     display: inline;
-    width: 90%;
-    border: 5px solid #ff0000;
+    border: 1px solid #ff0000;
+    padding: 50px, 50px;
 }
 
 
 
 
-button:hover {
-background-color: #1CA3BA;
-  padding: 5px 25px;
-  border: #1CA3BA;
+
+button {
+  padding: 10px 25px;
   border-radius: 6px;
   display: inline-block;
+  position: relative;
   line-height: 25px;
+  background: #1CA3BA;
   text-align: center;
   margin: 10px;
-  width: 200px;
-}
+  width: 200px; 
+} */
