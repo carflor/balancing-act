@@ -6,6 +6,7 @@ body {
 
 * {
     font-family: "Biryani", "Times New Roman", sans-serif;
+    color: #363636
 }
 
 main {
@@ -26,6 +27,11 @@ nav {
     height: 100%;
     border-right: 0px solid white;
     background-color: white; 
+    box-shadow: rgba(0,0,0,0.05);
+}
+
+h1 {
+    box-shadow: rgba(0,0,0,0.05);
 }
 
 ul {
@@ -64,6 +70,7 @@ li img {
     background-image: linear-gradient(to right,#8ED1DC , #E3F4F6);
     border-radius: 4px 4px;
     z-index: 9;
+    box-shadow: rgba(0,0,0,0.05);
 }
 
 .close-button {
@@ -92,6 +99,7 @@ li img {
 .income {
     width: 120px;
     text-align: left;
+    box-shadow: rgba(0,0,0,0.05);
 }
 
 .expenses {
@@ -100,6 +108,7 @@ li img {
     height: 95px;
     width: 120px;
     text-align: left;
+    box-shadow: rgba(0,0,0,0.05);
 }
 
 .credit {
@@ -107,6 +116,7 @@ li img {
     width: 120px;
     height: 95px;
     text-align: left;
+    box-shadow: rgba(0,0,0,0.05);
 }
 
 .mainInfo section {
@@ -121,6 +131,7 @@ h2 {
     width: 44%;
     height: 90px;
     top: 90px;
+    box-shadow: rgba(0,0,0,0.05);
 }
 
 .manage-button {
@@ -143,6 +154,7 @@ h2 {
     height: 400px;
     top: 55px;
     width: 42%;
+    box-shadow: rgba(0,0,0,0.05);
 }
 
 .bottom {
@@ -151,18 +163,23 @@ h2 {
     width: 100%;
     border-radius: 5px 5px;
     padding: 10px 10px;
+    box-shadow: rgba(0,0,0,0.05);
 }
 .checking{
     top: -4%;
+    box-shadow: rgba(0,0,0,0.05);
 }
 .savings {
     top: 19%;
+    box-shadow: rgba(0,0,0,0.05);
 }
 .credit-card {
     top: 44%;
+    box-shadow: rgba(0,0,0,0.05);
 }
 .credit-cardtwo {
     top: 69%;
+    box-shadow: rgba(0,0,0,0.05);
 }
 
 span {
@@ -191,6 +208,7 @@ span {
     padding: 15px 10px;
     margin: 0px 70px 0px 0px;
     background: white;
+    box-shadow: rgba(0,0,0,0.05);
 }
 
 .otherh2 {   
