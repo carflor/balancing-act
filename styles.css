@@ -75,8 +75,44 @@ li img {
     z-index: 10;
 }
 
+.summary {
+    position: relative;
+    width: 43.5%;
+    top: 75px;
+    color: grey;
+}
 
+.mainInfo {
+    display: inline-block;
+    background: white;
+    padding: 5px 15px;
+    border-radius: 4px;
+}
 
+.income {
+    width: 120px;
+    text-align: left;
+}
+
+.expenses {
+    position: absolute;
+    right: 210px;
+    height: 95px;
+    width: 120px;
+    text-align: left;
+}
+
+.credit {
+    float: right;
+    width: 120px;
+    height: 95px;
+    text-align: left;
+}
+
+.mainInfo section {
+    color: black;
+    font-size: 20px;
+}
 
 
 
