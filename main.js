@@ -1,3 +1,6 @@
-var closeWelcome = button.querySelector('')
+var closeWelcome = button.querySelector('close-button')
+var input = button.querySelector('welcome-button')
 
-eventListner
+button.addEventListener = ('click', closeWelcome);
+
+function
