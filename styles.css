@@ -11,6 +11,7 @@ body {
 main {
     position: absolute;
     width: calc(100% - 140px);
+    height: 100%;
     margin: 0px 0px 0px 140px;
 }
 
