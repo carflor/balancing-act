@@ -29,6 +29,10 @@ nav {
     box-shadow: rgba(0,0,0,0.05);
 }
 
+.blue-border {
+    border-left: 5px solid #8ED1DC;
+}
+
 h1 {
     box-shadow: rgba(0,0,0,0.05);
 }
@@ -53,10 +57,6 @@ li img {
     width: 80px;
     margin: 5px 5px;
     height: 100px;
-}
-
-.nav-option {
-    border-left: 5px solid #8ED1DC;
 }
 
 .welcome-button {
@@ -163,18 +163,22 @@ h2 {
     padding: 10px 10px;
     box-shadow: rgba(0,0,0,0.05);
 }
+
 .checking{
     top: -4%;
     box-shadow: rgba(0,0,0,0.05);
 }
+
 .savings {
     top: 19%;
     box-shadow: rgba(0,0,0,0.05);
 }
+
 .credit-card {
     top: 44%;
     box-shadow: rgba(0,0,0,0.05);
 }
+
 .credit-cardtwo {
     top: 69%;
     box-shadow: rgba(0,0,0,0.05);
