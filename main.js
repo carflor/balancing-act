@@ -8,13 +8,32 @@ function handleCloseClick() {
 }
 
 var clickDashboard = document.querySelector('.dashboard');
-var lightTransactions = document.querySelector('.transactions');
+var clickTransactions = document.querySelector('.transactions');
+var clickProfile = document.querySelector('.profile');
 
-lightTransactions.addEventListener('click', handleIcon)
+// var lightTransactions = document.querySelector('.transactions');
+
+clickTransactions.addEventListener('click', handleIcon)
+clickProfile.addEventListener('click', handleIcon2)
+clickDashboard.addEventListener('click', handleIcon3)
+
 
 function handleIcon() {
     clickDashboard.classList.remove("blue-border");
-    lightTransactions.classList.add("blue-border");
+    clickTransactions.classList.add("blue-border");
+    clickProfile.classList.remove('blue-border');
+}
+
+function handleIcon2() {
+    clickDashboard.classList.remove("blue-border");
+    clickTransactions.classList.remove("blue-border");
+    clickProfile.classList.add('blue-border');
+}
+
+function handleIcon3() {
+    clickDashboard.classList.add("blue-border");
+    clickTransactions.classList.remove("blue-border");
+    clickProfile.classList.remove('blue-border');
 }
 
 
