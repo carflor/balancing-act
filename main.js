@@ -1,6 +1,9 @@
-var closeWelcome = button.querySelector('close-button')
-var input = button.querySelector('welcome-button')
+var removeButton = document.getElementById('button');
+var closeButton = document.querySelector('.close-button');
 
-button.addEventListener = ('click', closeWelcome);
+closeButton.addEventListener('click', handleCloseClick)
 
-function
+function handleCloseClick() {
+    console.log("it works");
+  removeButton.style.display = "none";
+}
