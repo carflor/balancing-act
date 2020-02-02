@@ -1,9 +1,9 @@
 var removeButton = document.getElementById('button');
 var closeButton = document.querySelector('.close-button');
 
-closeButton.addEventListener('click', handleCloseClick)
+closeButton.addEventListener('click', handleCloseClick, {once: true})
 
-function handleCloseClick() {
+function handleCloseClick() {    
   removeButton.style.display = "none";
 }
 
@@ -159,6 +159,10 @@ function displayDashboard() {
       </table>
     </section>
     </div>`
+
+    closeButton = document.querySelector('.close-button');
+    removeButton = document.getElementById('button');
+    closeButton.addEventListener('click', handleCloseClick, {once: true})
 }
 
 function displayTransactions() {
@@ -308,7 +312,7 @@ function displayTransactions() {
     <input class="options" type="text" name="outflow" />
     <p>Category:</p>
     <input class="options" type="text" name="category" />
-    <button class="expense-button">Log Expense<button>
+    <button class="expense-button">Log Expense</button>
     </section>
     </aside>
     </section>`
