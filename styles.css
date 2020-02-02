@@ -269,7 +269,7 @@ td {
     position: absolute;
     padding: 10px 10px;
     width: 370px;
-    top: 33px;
+    top: 27px;
     left: 292px;
     
 }
@@ -303,9 +303,8 @@ td {
 
 .full-transactions {
     background: #ffffff;
-    margin: 0px 50% 0px 0px;
     padding: 10px 10px;
-    width: 58%;
+    width: 52%;
     border-radius: 8px 5px; 
     text-align: left;
 } 
@@ -315,36 +314,35 @@ td {
 }
 
 .transactions-aside {
-    border: 1px solid red;
     position: relative;
     float: right;
     background: #ffffff;
-    width: 45%;
+    width: 40%;
     bottom: 100%;
-    left: 7%;
+    left: -5%;
     height: 100%;  
     text-align: center;
     border-radius: 5px 5px;
 }
 
 .new-transaction {
-    border: 1px solid brown;
     position: absolute;
     width: 52%;
-    height: 11%;
-    top: 0%;
+    height: 6%;
+    top: -1%;
     left: 27%;
 
 }
 
 .transactions-menu {
-      position: relative;
-  height: 100%;
   text-align: left;
   padding: 37px;
-  top: 2%;
 }
 
 .options {
     width: 100%;
+}
+
+.expense-button {
+    
 }
