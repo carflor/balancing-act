@@ -344,5 +344,12 @@ td {
 }
 
 .expense-button {
-    
+    position: relative;
+    top: 10px;
+    background: #1CA3BA;
+    border-radius: 20px 20px;
+    width: 48%;
+    height: 45px;
+    color: #ffffff;
+    font-size: 15px;
 }
