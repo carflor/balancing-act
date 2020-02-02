@@ -40,7 +40,8 @@ clickProfile.addEventListener('click', displayProfile)
 clickDashboard.addEventListener('click', displayDashboard)
 
 function displayDashboard() {
-    mainOne.innerHTML = `<main class="main-one">
+    mainOne.innerHTML = 
+    `
     <h1>Balancing Act</h1>
     <div id="button">
       <button class="welcome-button"> 
@@ -157,13 +158,12 @@ function displayDashboard() {
       </tr>
       </table>
     </section>
-    </div>
-    </main>`
+    </div>`
 }
 
 function displayTransactions() {
-    mainOne.innerHTML = 
-    `<main class="main-transactions"> 
+    mainOne.innerHTML = `
+    <section class="main-transactions">
     <h1 class="h1-transactions">Transactions</h1>
     <div class="transactions-buttons"> 
     <button class="all-button">ALL</button>
@@ -308,15 +308,10 @@ function displayTransactions() {
     <input class="options" type="text" name="outflow" />
     <p>Category:</p>
     <input class="options" type="text" name="category" />
-    <p>
     <button class="expense-button">Log Expense<button>
-    </p>
     </section>
-
-    </section>
-    
     </aside>
-    </main>`
+    </section>`
 }
 
 function displayProfile() {
