@@ -60,6 +60,8 @@ li img {
     height: 100px;
 }
 
+/* PAGE ONE DASHBOARD STYLING */
+
 .welcome-button {
     position: absolute;
     width: 44%;
@@ -275,24 +277,27 @@ td {
 }
 
 .all-button {
+    border: 1px solid #1CA3BA;
     border-radius: 20px 20px;
     background: #1CA3BA;
+    color: #ffffff;
     width: 120px;
     height: 40px;
-    color: #ffffff;
     font-size: 16px;
 }
 
 .inflow-button {
+    border: 1px solid #1CA3BA;
    border-radius: 20px 20px;
     background: #ffffff;
+    color:  #1CA3BA;
     width: 120px;
     height: 40px;
-    color:  #1CA3BA;
     font-size: 16px;
 }
 
 .outflow-button {
+    border: 1px solid #1CA3BA;
     border-radius: 20px 20px;
     background: #ffffff;
     width: 120px;
@@ -353,3 +358,13 @@ td {
     color: #ffffff;
     font-size: 15px;
 }
+
+button:hover {
+    background-color: #808080;
+}
+
+/* extra experiment
+.coloring {
+    background: #1CA3BA;
+    color: #ffffff;
+}  */
